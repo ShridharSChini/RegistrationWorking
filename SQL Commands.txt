@@ -1,0 +1,20 @@
+use sdm;
+#select * from CSE;
+#CREATE TABLE CSE(USN varchar(10) primary key not null,Full_Name varchar(100) not null,Branch varchar(100) not null,Fees_Pending varchar(100) not null,Fees_Paid varchar(100) not null,Date_of_Payment date not null,Receipt longtext not null,Admission_Sought varchar(100) not null,Email varchar(100) not null,Mobile_No varchar(100) not null,Parents_No varchar(100) not null,Postal_Address varchar(100) not null,Admission_To varchar(100) not null,Admission_Quota varchar(100) not null,Category varchar(100) not null,PE_1 varchar(100),PE_2 varchar(100),OE_1 varchar(100),OE_2 varchar(100));
+#CREATE TABLE ECE(USN varchar(10) primary key not null,Full_Name varchar(100) not null,Branch varchar(100) not null,Fees_Pending varchar(100) not null,Fees_Paid varchar(100) not null,Date_of_Payment date not null,Receipt longtext not null,Admission_Sought varchar(100) not null,Email varchar(100) not null,Mobile_No varchar(100) not null,Parents_No varchar(100) not null,Postal_Address varchar(100) not null,Admission_To varchar(100) not null,Admission_Quota varchar(100) not null,Category varchar(100) not null,PE_1 varchar(100),PE_2 varchar(100),OE_1 varchar(100),OE_2 varchar(100));
+#CREATE TABLE EEE(USN varchar(10) primary key not null,Full_Name varchar(100) not null,Branch varchar(100) not null,Fees_Pending varchar(100) not null,Fees_Paid varchar(100) not null,Date_of_Payment date not null,Receipt longtext not null,Admission_Sought varchar(100) not null,Email varchar(100) not null,Mobile_No varchar(100) not null,Parents_No varchar(100) not null,Postal_Address varchar(100) not null,Admission_To varchar(100) not null,Admission_Quota varchar(100) not null,Category varchar(100) not null,PE_1 varchar(100),PE_2 varchar(100),OE_1 varchar(100),OE_2 varchar(100));
+#CREATE TABLE CIV(USN varchar(10) primary key not null,Full_Name varchar(100) not null,Branch varchar(100) not null,Fees_Pending varchar(100) not null,Fees_Paid varchar(100) not null,Date_of_Payment date not null,Receipt longtext not null,Admission_Sought varchar(100) not null,Email varchar(100) not null,Mobile_No varchar(100) not null,Parents_No varchar(100) not null,Postal_Address varchar(100) not null,Admission_To varchar(100) not null,Admission_Quota varchar(100) not null,Category varchar(100) not null,PE_1 varchar(100),PE_2 varchar(100),OE_1 varchar(100),OE_2 varchar(100));
+#CREATE TABLE MECH(USN varchar(10) primary key not null,Full_Name varchar(100) not null,Branch varchar(100) not null,Fees_Pending varchar(100) not null,Fees_Paid varchar(100) not null,Date_of_Payment date not null,Receipt longtext not null,Admission_Sought varchar(100) not null,Email varchar(100) not null,Mobile_No varchar(100) not null,Parents_No varchar(100) not null,Postal_Address varchar(100) not null,Admission_To varchar(100) not null,Admission_Quota varchar(100) not null,Category varchar(100) not null,PE_1 varchar(100),PE_2 varchar(100),OE_1 varchar(100),OE_2 varchar(100));
+
+
+#CREATE TABLE LOGIN(Username varchar(50) not null,Password varchar(50) not null);
+-- insert into login values("CSE","hodcse");
+-- insert into login values("ECE","hodece");
+-- insert into login values("EEE","hodeee");
+-- insert into login values("CIV","hodciv");
+#insert into login values("MECH","hodmech");
+#insert into login values("admin","kleit");
+
+#drop table DETAILS
+
+-- select * from CSE;
